@@ -16,4 +16,8 @@ class login extends BaseController
     public function faqs(){
         return view('faqs');
     }
+
+    public function home_admin(){
+        return view ('home_admin');
+    }
 }

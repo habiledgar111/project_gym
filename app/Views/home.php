@@ -30,6 +30,7 @@
       </div>
     </div>
   </header>
+  
 <div>
   <img src="/resource/gym_photo1.png" alt="gym_photo1" class="img-fluid">
 </div>
