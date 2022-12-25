@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Faqs</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="css/style.css">
+    
 </head>
 <body>
     <header class="p-3 bg-dark text-white" id="navbar">
@@ -25,6 +26,17 @@
         </div>
     </header>
 
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col col-1"></div>
+            <div class="col col-11"> <h2 class="text-stroke">General Info</h2> </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col col-2"></div>
+            <div class="col col-10"></div>
+            <div class=">
+        </div>
+    </div>
 
     <footer class="text-center text-lg-start footer text-muted">
     <!-- Section: Social media -->
