@@ -9,11 +9,15 @@ class login extends BaseController
         return view('login');
     }
 
-    public function header(){
-        return view('header');
+    public function home(){
+        return view('home');
     }
 
     public function faqs(){
         return view('faqs');
+    }
+
+    public function home_admin(){
+        return view ('home_admin');
     }
 }
