@@ -40,6 +40,7 @@ $routes->get('/login', 'login::login');
 $routes->get('/home', 'login::home');
 $routes->get('/faqs', 'login::faqs');
 $routes->get('/home_admin', 'login::home_admin');
+$routes->get('/add_tips', 'login::add_tips');
 
 
 

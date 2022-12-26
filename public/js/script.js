@@ -8,6 +8,10 @@ $('.multiple-items').ready(function(){
   });
 });
 
+$("#cloneform").click(function(){
+  $("#addform").clone().appendTo("formwrapper");
+});
+
 function myFunction(x){
   x.classList.toggle("change");
   

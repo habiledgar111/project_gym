@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>home admin</title>
+    <title>edit</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div class="row">
+<div class="row">
     <header class="p-3 bg-dark text-white" id="navbar">
         <div class="container">
           <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
@@ -38,10 +38,10 @@
     <div class="col-1">
       <div id="mysidebar" class="sidebar">
         <a href="add_tips">Add Tips</a>
-        <a href="#">Show tips</a>
+        <a href="show_tips">Show tips</a>
       </div>
     </div>
-      <h1 class="text-center" style="align-items: center;">WELCOME TO ADMIN PAGE</h1>
+      
   </div>
 
   

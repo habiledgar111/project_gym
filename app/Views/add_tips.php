@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>home admin</title>
+    <title>add_tips</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
 </head>
 <body>
-  <div class="row">
+<div class="row">
     <header class="p-3 bg-dark text-white" id="navbar">
         <div class="container">
           <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
@@ -38,15 +39,20 @@
     <div class="col-1">
       <div id="mysidebar" class="sidebar">
         <a href="add_tips">Add Tips</a>
-        <a href="#">Show tips</a>
+        <a href="show_tips">Show tips</a>
       </div>
     </div>
-      <h1 class="text-center" style="align-items: center;">WELCOME TO ADMIN PAGE</h1>
-  </div>
-
-  
-
-  
+    <div id="formwrapper">
+    <h1 class="text-center" style="align-items: center;">TAMBAH TIPS</h1>
+        <form action="add_tips_action" id="addform">
+          <input type="text" id="judul" name="judul" placeholder="judul" class="input-judul mt-5"><br>
+          <input type="text" id="subjudul" name="subjudul" placeholder="Sub judul" class="input-judul"><br>
+          <textarea id="content" name="content" cols="100" placeholder="Content" class="input-content"></textarea>
+          <input type="submit" value ="ADD" class="input-button mt-5" >
+          <input type="button" id="cloneform" class="input-button mt-3" value="Add Form">
+        </form>
+      </div>
+</div>  
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script> 
     <script type="text/javascript" src="js/script.js"></script>
 </body>

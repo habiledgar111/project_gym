@@ -20,4 +20,12 @@ class login extends BaseController
     public function home_admin(){
         return view ('home_admin');
     }
+
+    public function edit(){
+        return view ('edit_admin');
+    }
+
+    public function add_tips(){
+        return view ('add_tips');
+    }
 }
