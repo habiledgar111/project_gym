@@ -46,14 +46,20 @@
     <h1 class="text-center" style="align-items: center;">TAMBAH TIPS</h1>
         <form action="add_tips_action" id="addform">
           <input type="text" id="judul" name="judul" placeholder="judul" class="input-judul mt-5"><br>
-          <input type="text" id="subjudul" name="subjudul" placeholder="Sub judul" class="input-judul"><br>
-          <textarea id="content" name="content" cols="100" placeholder="Content" class="input-content"></textarea>
+          <div id="buyerForm" class="mt-3">
+            <input type="text" id="subjudul" name="subjudul" placeholder="Sub judul" class="input-judul"><br>
+            <textarea id="content" name="content" cols="100" placeholder="Content" class="input-content"></textarea>
+          </div>
+          <div id="wrapper"></div>
           <input type="submit" value ="ADD" class="input-button mt-5" >
-          <input type="button" id="cloneform" class="input-button mt-3" value="Add Form">
         </form>
+        <input type="button" id="testButton" value="Test" />
       </div>
 </div>  
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script> 
-    <script type="text/javascript" src="js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/sidebar.js"></script>
+    <script type="text/javascript" src="js/form.js"></script>
+
 </body>
 </html>
